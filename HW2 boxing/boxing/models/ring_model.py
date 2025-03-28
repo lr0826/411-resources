@@ -119,7 +119,7 @@ class RingModel:
             boxer (Boxer): The boxer to evaluate.
 
         Returns:
-            float: The calculated skill score.
+            float: The calculated skill scores.
         """
         # Arbitrary calculations
         age_modifier = -1 if boxer.age < 25 else (-2 if boxer.age > 35 else 0)

@@ -12,7 +12,7 @@ configure_logger(logger)
 
 # load the db path from the environment with a default value
 DB_PATH = os.getenv("DB_PATH", "/app/db/boxing.db")
-logger.info(f"*** USING DB PATH: {DB_PATH} ***")
+
 def check_database_connection():
     """
     Verifies that the database connection can be established.

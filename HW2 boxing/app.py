@@ -29,6 +29,7 @@ configure_logger(app.logger)
 
 
 @app.route('/api/health', methods=['GET'])
+
 def healthcheck() -> Response:
     """
     Health check route to verify the service is running.
